@@ -5,8 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { AcercadeComponent } from './pages/acercade/acercade.component';
-import { NavbarComponent } from './componenta/navbar/navbar.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FooterComponent } from './components/footer/footer.component';
     InicioComponent,
     AcercadeComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+  
   ],
   imports: [
     BrowserModule,
